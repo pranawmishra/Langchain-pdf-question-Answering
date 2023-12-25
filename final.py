@@ -20,7 +20,7 @@ def load_docs(directory):
   return documents
 
 documents = load_docs(directory)
-print(len(documents))
+# print(len(documents))
 
 def split_docs(documents, chunk_size=1000, chunk_overlap=100):
   text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
@@ -28,7 +28,7 @@ def split_docs(documents, chunk_size=1000, chunk_overlap=100):
   return docs
 
 docs = split_docs(documents)
-print(len(docs))
+# print(len(docs))
 
 embeddings = OpenAIEmbeddings()
 
