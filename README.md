@@ -35,6 +35,3 @@ The system's performance may vary based on the specificity of user queries. Ambi
 
 The system successfully retrieves relevant documents based on the similarity search and provides informative answers to user queries. The combination of OpenAI embeddings, Pinecone vector search, and Langchain question answering contributes to a cohesive and effective document retrieval system.
 
-## Conclusion:
-The integration of diverse technologies, including embeddings, vector search, and question answering, results in a robust and versatile system. Continuous refinement and addressing potential challenges are essential for enhancing performance and user satisfaction.
-
