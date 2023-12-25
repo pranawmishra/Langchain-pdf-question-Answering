@@ -1,5 +1,4 @@
 # Langchain-pdf-question-Answering
-## Report: Document Retrieval and Question Answering System
 
 ## 1. Methodology:
 
